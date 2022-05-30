@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body style="background-color: powderblue;">
+    <div class="instructions">
+
+        <h1>TIC TAC TOE</h1>
+        <hr>
+        <p>Game Starts When You Click The Box <br>
+    
+            First Player : X<br>
+            Second Player : O<br>
+            </p>
+    </div>
+
+    <div id="gameBox">
+        <div id="row1">
+            <button class="btn btn-light" onclick="btn1()" id="light1"></button>
+            <button class="btn btn-light" onclick="btn2()" id="light2"></button>
+            <button class="btn btn-light" onclick="btn3()" id="light3"></button>
+        </div>
+        <div id="row2">
+            <button class="btn btn-light" onclick="btn4()" id="light4"></button>
+            <button class="btn btn-light" onclick="btn5()" id="light5"></button>
+            <button class="btn btn-light" onclick="btn6()" id="light6"></button>
+
+        </div>
+        <div id="row3">
+            <button class="btn btn-light" onclick="btn7()" id="light7"></button>
+            <button class="btn btn-light" onclick="btn8()" id="light8"></button>
+            <button class="btn btn-light" onclick="btn9()" id="light9"></button>
+
+        </div>
+
+    </div>
+    <div id="reset_id">
+        <button class="btn btn-primary" onclick="resetFunc()">Reset</button>
+        <div id="turnDiv"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.instructions {
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+#row1, #row2, #row3 {
+    display: flex;
+    padding: 10px;
+    
+}
+
+#gameBox {
+    margin-top: 20px;
+    text-align: center;
+    margin: auto;
+    width: 70mm;
+    border-radius: 10px;
+
+}
+
+#gamebox button {
+    width: 80px;
+    height: 50px;
+    padding: 6px;
+    margin: 3px;
+    
+}
+
+#reset_id {
+    margin-top: 20px;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    padding-top: 20px;
+
+}
+#reset_id p {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
