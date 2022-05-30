@@ -11,14 +11,10 @@ Xturn();
 let n = 0;
 
 function checkEvenOrOdd() {
-
     if (n % 2 == 0) {
         xORo = 'X';
-
     }else {
         xORo = 'O';
-
-
     }
 }
 
@@ -41,18 +37,13 @@ function turn() {
     var txtTurn = document.createTextNode(turnXO + ' turn');
     createP.appendChild(txtTurn);
     document.getElementById('turnDiv').appendChild(createP);
-
 }
-
-
 
 function finalDisable() {
     for (let k = 1; k < 10; k ++ ) {
         document.getElementById('light' + String(k)).disabled = true;
     }
-
 }
-
 
 function resetFunc() {
     for (let k = 1; k < 10; k ++ ) {
@@ -97,16 +88,7 @@ function check_win(sign) {
         alert(sign + ' Won');
         finalDisable();
     }
-
-
 }
-
-
-
-
-
-
-
 
 
 function btn1() {
@@ -130,7 +112,6 @@ function btn2() {
     check_win(xORo);
     turn();
     finalDraw();
-
 }
 function btn3() {
     checkEvenOrOdd();
@@ -152,8 +133,8 @@ function btn4() {
     check_win(xORo);
     turn();
     finalDraw();
-
 }
+
 function btn5() {
     checkEvenOrOdd();
     document.getElementById('light5').innerHTML = xORo;
@@ -164,6 +145,7 @@ function btn5() {
     turn();
     finalDraw();
 }
+
 function btn6() {
     checkEvenOrOdd();
     document.getElementById('light6').innerHTML = xORo;
@@ -185,6 +167,7 @@ function btn7() {
     turn();
     finalDraw();
 }
+
 function btn8() {
     checkEvenOrOdd();
     document.getElementById('light8').innerHTML = xORo;
@@ -195,6 +178,7 @@ function btn8() {
     turn();
     finalDraw();
 }
+
 function btn9() {
     checkEvenOrOdd();
     document.getElementById('light9').innerHTML = xORo;
@@ -205,6 +189,3 @@ function btn9() {
     turn();
     finalDraw();
 }
-
-
-
